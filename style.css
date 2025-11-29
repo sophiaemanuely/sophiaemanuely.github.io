@@ -7,4 +7,18 @@ body {
 .inicio{
 	display: flex;
 	height: 100vh;
+} 
+
+.foto {
+	flex: 1;
+	background-color: gray;
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+.foto img {
+	width: 300px;
+	height: auto;
+	border-radius: 8px;
 }

@@ -34,6 +34,7 @@ justify-content: center; /* Alinha o conteúdo verticalmente ao centro */
 /* Estilos para o título principal (nome) dentro de .infos */
 .infos h1 {
 font-size: 48px; /* Define o tamanho da fonte como 48 pixels */
+color: rgb(230, 62, 140); /* Define a cor do texto como cinza */
 margin: 0; /* Remove as margens padrão (superior e inferior) do título */
 }
 

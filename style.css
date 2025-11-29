@@ -47,8 +47,29 @@ margin-top: 10px; /* Adiciona uma margem de 10 pixels acima do subtítulo */
 .infos p {
 font-size: 18px; /* Define o tamanho da fonte como 18 pixels */
 margin: 10px 0; /* Adiciona uma margem de 10 pixels em cima e embaixo, e 0 nas laterais */
-}<div class="social">
-                    <a href="https://www.linkedin.com/in/s.emanuely__/"><i class="bx bxl-linkedin"></i></a>
-                    <a href="https://www.instagram.com/s.emanuely___/"><i class="bx bxl-instagram"></i></a>
-                    <a href="https://github.com/ sophiiaemanuely.github.io"><i class="bx bxl-github"></i></a>
-                </div>
+}
+
+/* Estilos para o contêiner dos ícones de redes sociais */
+.social {
+display: flex; /* Faz com que os ícones fiquem lado a lado */
+flex-wrap: wrap; /* Permite que os ícones quebrem para a próxima linha se não houver espaço */
+gap: 1.4rem; /* Adiciona um espaçamento de 1.4rem entre os ícones */
+margin-top: 1.4rem; /* Adiciona uma margem de 1.4rem acima do contêiner de redes sociais */
+}
+/* Estilos para cada link de rede social (o círculo do ícone) */
+.social a {
+display: grid; /* Usa grid para centralizar o ícone dentro do círculo */
+place-items: center; /* Centraliza o ícone tanto vertical quanto horizontalmente */
+text-decoration: none; /* Remove o sublinhado padrão dos links */
+color: gray; /* Define a cor do ícone como cinza */
+border: 1.6px solid gray; /* Adiciona uma borda de 1.6 pixels, sólida e cinza */
+font-size: 1.5rem; /* Define o tamanho do ícone */
+border-radius: 50%; /* Faz a borda ser um círculo perfeito */
+padding: 0.39rem; /* Adiciona um espaçamento interno (acolchoamento) ao redor do ícone */
+text-align: center; /* Centraliza o texto (se houver) */
+}
+/* Estilos quando o mouse passa por cima de um link de rede social */
+.social a:hover {
+color: #444; /* Muda a cor do ícone para um cinza mais escuro */
+background-color: gray; /* Muda a cor de fundo do círculo para cinza */
+}
